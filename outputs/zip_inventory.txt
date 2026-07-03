@@ -1,0 +1,139 @@
+======================================================================
+INVENTARIO DO ZIP OFICIAL - U-RNN (material suplementar / Figshare)
+======================================================================
+Arquivo: /home/pedro/Documentos/Faculdade/Tech Guard/urbanflood_urnn_demo/data/raw/urbanflood24_api.zip
+Tamanho no disco (compactado): 18.27 GB
+
+Abrindo indice central do ZIP (sem extrair conteudo)...
+Total de entradas no ZIP: 541 (354 arquivos, 187 pastas)
+Tamanho total compactado (somado por entrada): 18.27 GB
+Tamanho total estimado apos extracao completa: 116.04 GB
+
+----------------------------------------------------------------------
+DISTRIBUICAO POR EXTENSAO (contagem e tamanho extraido)
+----------------------------------------------------------------------
+             .npy       354 arquivos     116.04 GB
+
+----------------------------------------------------------------------
+PRIMEIROS 40 ARQUIVOS DO ZIP (ordem do indice)
+----------------------------------------------------------------------
+  [DIR ] urbanflood24/  (0.00 B)
+  [DIR ] urbanflood24/train/  (0.00 B)
+  [DIR ] urbanflood24/train/flood/  (0.00 B)
+  [DIR ] urbanflood24/train/flood/location1/  (0.00 B)
+  [DIR ] urbanflood24/train/flood/location1/G1162_intensity_170/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/G1162_intensity_170/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/G1162_intensity_170/rainfall.npy  (2.94 KB)
+  [DIR ] urbanflood24/train/flood/location1/G1166_intensity_120/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/G1166_intensity_120/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/G1166_intensity_120/rainfall.npy  (2.94 KB)
+  [DIR ] urbanflood24/train/flood/location1/G3501_intensity_105/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/G3501_intensity_105/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/G3501_intensity_105/rainfall.npy  (2.94 KB)
+  [DIR ] urbanflood24/train/flood/location1/G3555_intensity_284/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/G3555_intensity_284/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/G3555_intensity_284/rainfall.npy  (2.94 KB)
+  [DIR ] urbanflood24/train/flood/location1/r100y_p0.1_d3h/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.1_d3h/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.1_d3h/rainfall.npy  (1.53 KB)
+  [DIR ] urbanflood24/train/flood/location1/G3535_intensity_215/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/G3535_intensity_215/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/G3535_intensity_215/rainfall.npy  (2.94 KB)
+  [DIR ] urbanflood24/train/flood/location1/r100y_p0.2_d3h/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.2_d3h/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.2_d3h/rainfall.npy  (1.53 KB)
+  [DIR ] urbanflood24/train/flood/location1/G3543_intensity_271/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/G3543_intensity_271/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/G3543_intensity_271/rainfall.npy  (2.94 KB)
+  [DIR ] urbanflood24/train/flood/location1/r100y_p0.3_d3h/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.3_d3h/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.3_d3h/rainfall.npy  (1.53 KB)
+  [DIR ] urbanflood24/train/flood/location1/r100y_p0.4_d3h/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.4_d3h/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.4_d3h/rainfall.npy  (1.53 KB)
+  [DIR ] urbanflood24/train/flood/location1/r100y_p0.6_d3h/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.6_d3h/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.6_d3h/rainfall.npy  (1.53 KB)
+  [DIR ] urbanflood24/train/flood/location1/r100y_p0.7_d3h/  (0.00 B)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.7_d3h/flood.npy  (686.65 MB)
+  [FILE] urbanflood24/train/flood/location1/r100y_p0.7_d3h/rainfall.npy  (1.53 KB)
+
+----------------------------------------------------------------------
+ARQUIVOS COM EXTENSOES UTEIS ENCONTRADOS (.npy/.npz/.csv/.json/.txt/.png/.tif/...)
+----------------------------------------------------------------------
+Total de arquivos com extensoes uteis: 354
+  urbanflood24/train/flood/location1/G1162_intensity_170/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/G1162_intensity_170/rainfall.npy  (2.94 KB)
+  urbanflood24/train/flood/location1/G1166_intensity_120/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/G1166_intensity_120/rainfall.npy  (2.94 KB)
+  urbanflood24/train/flood/location1/G3501_intensity_105/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/G3501_intensity_105/rainfall.npy  (2.94 KB)
+  urbanflood24/train/flood/location1/G3555_intensity_284/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/G3555_intensity_284/rainfall.npy  (2.94 KB)
+  urbanflood24/train/flood/location1/r100y_p0.1_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r100y_p0.1_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/G3535_intensity_215/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/G3535_intensity_215/rainfall.npy  (2.94 KB)
+  urbanflood24/train/flood/location1/r100y_p0.2_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r100y_p0.2_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/G3543_intensity_271/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/G3543_intensity_271/rainfall.npy  (2.94 KB)
+  urbanflood24/train/flood/location1/r100y_p0.3_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r100y_p0.3_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r100y_p0.4_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r100y_p0.4_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r100y_p0.6_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r100y_p0.6_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r100y_p0.7_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r100y_p0.7_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r300y_p0.2_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r300y_p0.2_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r500y_p0.2_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r500y_p0.2_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r100y_p0.9_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r100y_p0.9_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r500y_p0.4_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r500y_p0.4_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r500y_p0.5_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r500y_p0.5_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r500y_p0.6_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r500y_p0.6_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r500y_p0.7_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r500y_p0.7_d3h/rainfall.npy  (1.53 KB)
+  urbanflood24/train/flood/location1/r500y_p0.8_d3h/flood.npy  (686.65 MB)
+  urbanflood24/train/flood/location1/r500y_p0.8_d3h/rainfall.npy  (1.53 KB)
+  ... e mais 314 arquivo(s) nao listados.
+
+----------------------------------------------------------------------
+SUGESTAO DE AMOSTRA PONTUAL (arquivos pequenos, <= 5MB, extensao util)
+----------------------------------------------------------------------
+Os arquivos abaixo sao candidatos razoaveis para extracao pontual (pequenos o suficiente para nao reproduzir o problema de espaco em disco).
+Extracao NAO executada automaticamente. Para extrair manualmente um arquivo especifico:
+
+  Candidato: urbanflood24/train/flood/location1/r100y_p0.1_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.1_d3h/rainfall.npy', 'data/sample/')"
+  Candidato: urbanflood24/train/flood/location1/r100y_p0.2_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.2_d3h/rainfall.npy', 'data/sample/')"
+  Candidato: urbanflood24/train/flood/location1/r100y_p0.3_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.3_d3h/rainfall.npy', 'data/sample/')"
+  Candidato: urbanflood24/train/flood/location1/r100y_p0.4_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.4_d3h/rainfall.npy', 'data/sample/')"
+  Candidato: urbanflood24/train/flood/location1/r100y_p0.6_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.6_d3h/rainfall.npy', 'data/sample/')"
+  Candidato: urbanflood24/train/flood/location1/r100y_p0.7_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.7_d3h/rainfall.npy', 'data/sample/')"
+  Candidato: urbanflood24/train/flood/location1/r300y_p0.2_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r300y_p0.2_d3h/rainfall.npy', 'data/sample/')"
+  Candidato: urbanflood24/train/flood/location1/r500y_p0.2_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r500y_p0.2_d3h/rainfall.npy', 'data/sample/')"
+  Candidato: urbanflood24/train/flood/location1/r100y_p0.9_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.9_d3h/rainfall.npy', 'data/sample/')"
+  Candidato: urbanflood24/train/flood/location1/r500y_p0.4_d3h/rainfall.npy  (1.53 KB)
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r500y_p0.4_d3h/rainfall.npy', 'data/sample/')"
+
+======================================================================
+CONCLUSAO: nenhuma extracao foi realizada por este script. O ZIP permanece
+integro em data/raw/ apenas como referencia. A solucao funcional desta
+entrega usa dados sinteticos (src/synthetic_data.py), conforme justificado
+no README principal.
+======================================================================

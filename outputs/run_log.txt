@@ -1,0 +1,39 @@
+19:03:29 | INFO | Dispositivo utilizado: cuda
+19:03:29 | INFO | Versao do PyTorch: 2.12.1+cu130
+19:03:29 | INFO | Dataset oficial (Figshare, ~18GB zip / ~116GB extraido) NAO foi extraido integralmente por limitacao de armazenamento local. Usando dados sinteticos gerados por src/synthetic_data.py, conforme justificado no README.
+19:03:29 | INFO | Gerando dataset sintetico: N=60, grid=64x64, T_in=5, T_out=5, seed=42
+19:03:29 | INFO | X shape: (60, 5, 4, 64, 64) | y shape: (60, 5, 1, 64, 64)
+19:03:29 | INFO | Treino: 45 amostras | Teste: 15 amostras
+19:03:29 | INFO | Modelo: URNNLite (ConvGRU) | parametros treinaveis: 54,017
+19:03:30 | INFO | Iniciando treinamento: 25 epocas, batch_size=8, lr=0.001
+19:03:30 | INFO | Epoca 01/25 | MSE treino: 0.01458
+19:03:31 | INFO | Epoca 02/25 | MSE treino: 0.01342
+19:03:31 | INFO | Epoca 03/25 | MSE treino: 0.01138
+19:03:31 | INFO | Epoca 04/25 | MSE treino: 0.00830
+19:03:31 | INFO | Epoca 05/25 | MSE treino: 0.00682
+19:03:31 | INFO | Epoca 06/25 | MSE treino: 0.00677
+19:03:31 | INFO | Epoca 07/25 | MSE treino: 0.00568
+19:03:31 | INFO | Epoca 08/25 | MSE treino: 0.00545
+19:03:32 | INFO | Epoca 09/25 | MSE treino: 0.00507
+19:03:32 | INFO | Epoca 10/25 | MSE treino: 0.00486
+19:03:32 | INFO | Epoca 11/25 | MSE treino: 0.00472
+19:03:32 | INFO | Epoca 12/25 | MSE treino: 0.00497
+19:03:32 | INFO | Epoca 13/25 | MSE treino: 0.00482
+19:03:32 | INFO | Epoca 14/25 | MSE treino: 0.00438
+19:03:32 | INFO | Epoca 15/25 | MSE treino: 0.00442
+19:03:32 | INFO | Epoca 16/25 | MSE treino: 0.00428
+19:03:33 | INFO | Epoca 17/25 | MSE treino: 0.00458
+19:03:33 | INFO | Epoca 18/25 | MSE treino: 0.00461
+19:03:33 | INFO | Epoca 19/25 | MSE treino: 0.00512
+19:03:33 | INFO | Epoca 20/25 | MSE treino: 0.00462
+19:03:33 | INFO | Epoca 21/25 | MSE treino: 0.00463
+19:03:33 | INFO | Epoca 22/25 | MSE treino: 0.00431
+19:03:33 | INFO | Epoca 23/25 | MSE treino: 0.00471
+19:03:34 | INFO | Epoca 24/25 | MSE treino: 0.00446
+19:03:34 | INFO | Epoca 25/25 | MSE treino: 0.00494
+19:03:34 | INFO | MSE final (teste): 0.00529
+19:03:34 | INFO | MAE final (teste): 0.05758
+19:03:34 | INFO | Salvando evidencias em outputs/ (imagens, GIF, metricas)...
+19:03:35 | INFO | Metricas salvas em: /home/pedro/Documentos/Faculdade/Tech Guard/urbanflood_urnn_demo/outputs/metrics.json
+19:03:35 | INFO | Tempo total de execucao: 6.8s
+19:03:35 | INFO | Pipeline concluido com sucesso.

@@ -1,0 +1,23 @@
+# Dados brutos grandes (dataset oficial U-RNN, ~18GB compactado / ~116GB extraido)
+data/raw/*.zip
+data/raw/urbanflood24/
+data/raw/**/*.npy
+data/raw/**/*.npz
+data/raw/**/*.tif
+data/raw/**/*.h5
+data/raw/**/*.pt
+data/raw/**/*.pth
+
+# Enunciado institucional (uso interno, nao redistribuir)
+data/*.pdf
+data/*.docx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# SO
+.DS_Store
