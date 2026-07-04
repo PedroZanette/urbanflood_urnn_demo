@@ -52,7 +52,7 @@ def inspect_zip() -> str:
     lines.append("=" * 70)
     lines.append("INVENTARIO DO ZIP OFICIAL - U-RNN (material suplementar / Figshare)")
     lines.append("=" * 70)
-    lines.append(f"Arquivo: {ZIP_PATH}")
+    lines.append(f"Arquivo: {ZIP_PATH.relative_to(PROJECT_ROOT)}")
 
     if not ZIP_PATH.exists():
         lines.append("")
@@ -139,7 +139,7 @@ def inspect_zip() -> str:
                 lines.append(
                     f"    Comando sugerido (execute manualmente, apos revisar): "
                     f"python -c \"import zipfile; "
-                    f"zipfile.ZipFile('{ZIP_PATH.name}').extract('{info.filename}', 'data/sample/')\""
+                    f"zipfile.ZipFile('data/raw/{ZIP_PATH.name}').extract('{info.filename}', 'data/sample/')\""
                 )
         else:
             lines.append(

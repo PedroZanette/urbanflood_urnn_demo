@@ -208,7 +208,7 @@ def main() -> None:
         "runtime_seconds": round(elapsed, 2),
     }
     METRICS_PATH.write_text(json.dumps(metrics, indent=2), encoding="utf-8")
-    logger.info(f"Metricas salvas em: {METRICS_PATH}")
+    logger.info(f"Metricas salvas em: {METRICS_PATH.relative_to(PROJECT_ROOT)}")
     logger.info(f"Tempo total de execucao: {elapsed:.1f}s")
     logger.info("Pipeline concluido com sucesso.")
 

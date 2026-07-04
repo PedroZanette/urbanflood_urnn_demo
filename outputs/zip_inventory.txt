@@ -1,7 +1,7 @@
 ======================================================================
 INVENTARIO DO ZIP OFICIAL - U-RNN (material suplementar / Figshare)
 ======================================================================
-Arquivo: /home/pedro/Documentos/Faculdade/Tech Guard/urbanflood_urnn_demo/data/raw/urbanflood24_api.zip
+Arquivo: data/raw/urbanflood24_api.zip
 Tamanho no disco (compactado): 18.27 GB
 
 Abrindo indice central do ZIP (sem extrair conteudo)...
@@ -111,25 +111,25 @@ Os arquivos abaixo sao candidatos razoaveis para extracao pontual (pequenos o su
 Extracao NAO executada automaticamente. Para extrair manualmente um arquivo especifico:
 
   Candidato: urbanflood24/train/flood/location1/r100y_p0.1_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.1_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.1_d3h/rainfall.npy', 'data/sample/')"
   Candidato: urbanflood24/train/flood/location1/r100y_p0.2_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.2_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.2_d3h/rainfall.npy', 'data/sample/')"
   Candidato: urbanflood24/train/flood/location1/r100y_p0.3_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.3_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.3_d3h/rainfall.npy', 'data/sample/')"
   Candidato: urbanflood24/train/flood/location1/r100y_p0.4_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.4_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.4_d3h/rainfall.npy', 'data/sample/')"
   Candidato: urbanflood24/train/flood/location1/r100y_p0.6_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.6_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.6_d3h/rainfall.npy', 'data/sample/')"
   Candidato: urbanflood24/train/flood/location1/r100y_p0.7_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.7_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.7_d3h/rainfall.npy', 'data/sample/')"
   Candidato: urbanflood24/train/flood/location1/r300y_p0.2_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r300y_p0.2_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r300y_p0.2_d3h/rainfall.npy', 'data/sample/')"
   Candidato: urbanflood24/train/flood/location1/r500y_p0.2_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r500y_p0.2_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r500y_p0.2_d3h/rainfall.npy', 'data/sample/')"
   Candidato: urbanflood24/train/flood/location1/r100y_p0.9_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.9_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r100y_p0.9_d3h/rainfall.npy', 'data/sample/')"
   Candidato: urbanflood24/train/flood/location1/r500y_p0.4_d3h/rainfall.npy  (1.53 KB)
-    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r500y_p0.4_d3h/rainfall.npy', 'data/sample/')"
+    Comando sugerido (execute manualmente, apos revisar): python -c "import zipfile; zipfile.ZipFile('data/raw/urbanflood24_api.zip').extract('urbanflood24/train/flood/location1/r500y_p0.4_d3h/rainfall.npy', 'data/sample/')"
 
 ======================================================================
 CONCLUSAO: nenhuma extracao foi realizada por este script. O ZIP permanece

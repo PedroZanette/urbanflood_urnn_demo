@@ -231,7 +231,8 @@ urbanflood_urnn_demo/
 
 ## Instalação
 
-Requer Python 3.10+ (testado com Python 3.14 em Ubuntu). Bibliotecas leves e padrão de
+Requer Python 3.10+. Recomenda-se Python 3.10–3.12 para maior compatibilidade com PyTorch;
+o projeto foi executado localmente em ambiente virtual no Ubuntu. Bibliotecas leves e padrão de
 mercado: `numpy`, `matplotlib`, `torch` (CPU), `imageio` (GIF), `tqdm`, `scikit-learn`
 (`train_test_split`), `jupyter`/`ipykernel` (notebook).
 

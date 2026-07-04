@@ -1,39 +1,39 @@
-20:16:09 | INFO | Dispositivo utilizado: cuda
-20:16:09 | INFO | Versao do PyTorch: 2.12.1+cu130
-20:16:09 | INFO | Dataset oficial (Figshare, ~18GB zip / ~116GB extraido) NAO foi extraido integralmente por limitacao de armazenamento local. Usando dados sinteticos gerados por src/synthetic_data.py, conforme justificado no README.
-20:16:09 | INFO | Gerando dataset sintetico: N=60, grid=64x64, T_in=5, T_out=5, seed=42
-20:16:09 | INFO | X shape: (60, 5, 4, 64, 64) | y shape: (60, 5, 1, 64, 64)
-20:16:09 | INFO | Treino: 45 amostras | Teste: 15 amostras
-20:16:10 | INFO | Modelo: URNNLite (ConvGRU) | parametros treinaveis: 54,017
-20:16:11 | INFO | Iniciando treinamento: 25 epocas, batch_size=8, lr=0.001
-20:16:11 | INFO | Epoca 01/25 | MSE treino: 0.01458
-20:16:11 | INFO | Epoca 02/25 | MSE treino: 0.01342
-20:16:11 | INFO | Epoca 03/25 | MSE treino: 0.01138
-20:16:12 | INFO | Epoca 04/25 | MSE treino: 0.00830
-20:16:12 | INFO | Epoca 05/25 | MSE treino: 0.00682
-20:16:12 | INFO | Epoca 06/25 | MSE treino: 0.00677
-20:16:12 | INFO | Epoca 07/25 | MSE treino: 0.00568
-20:16:12 | INFO | Epoca 08/25 | MSE treino: 0.00545
-20:16:12 | INFO | Epoca 09/25 | MSE treino: 0.00507
-20:16:12 | INFO | Epoca 10/25 | MSE treino: 0.00486
-20:16:13 | INFO | Epoca 11/25 | MSE treino: 0.00472
-20:16:13 | INFO | Epoca 12/25 | MSE treino: 0.00497
-20:16:13 | INFO | Epoca 13/25 | MSE treino: 0.00482
-20:16:13 | INFO | Epoca 14/25 | MSE treino: 0.00438
-20:16:13 | INFO | Epoca 15/25 | MSE treino: 0.00442
-20:16:13 | INFO | Epoca 16/25 | MSE treino: 0.00428
-20:16:13 | INFO | Epoca 17/25 | MSE treino: 0.00458
-20:16:14 | INFO | Epoca 18/25 | MSE treino: 0.00461
-20:16:14 | INFO | Epoca 19/25 | MSE treino: 0.00512
-20:16:14 | INFO | Epoca 20/25 | MSE treino: 0.00462
-20:16:14 | INFO | Epoca 21/25 | MSE treino: 0.00463
-20:16:14 | INFO | Epoca 22/25 | MSE treino: 0.00431
-20:16:14 | INFO | Epoca 23/25 | MSE treino: 0.00471
-20:16:14 | INFO | Epoca 24/25 | MSE treino: 0.00446
-20:16:15 | INFO | Epoca 25/25 | MSE treino: 0.00494
-20:16:15 | INFO | MSE final (teste): 0.00529
-20:16:15 | INFO | MAE final (teste): 0.05758
-20:16:15 | INFO | Salvando evidencias em outputs/ (imagens, GIF, metricas)...
-20:16:16 | INFO | Metricas salvas em: /home/pedro/Documentos/Faculdade/Tech Guard/urbanflood_urnn_demo/outputs/metrics.json
-20:16:16 | INFO | Tempo total de execucao: 7.1s
-20:16:16 | INFO | Pipeline concluido com sucesso.
+20:33:47 | INFO | Dispositivo utilizado: cuda
+20:33:47 | INFO | Versao do PyTorch: 2.12.1+cu130
+20:33:47 | INFO | Dataset oficial (Figshare, ~18GB zip / ~116GB extraido) NAO foi extraido integralmente por limitacao de armazenamento local. Usando dados sinteticos gerados por src/synthetic_data.py, conforme justificado no README.
+20:33:47 | INFO | Gerando dataset sintetico: N=60, grid=64x64, T_in=5, T_out=5, seed=42
+20:33:47 | INFO | X shape: (60, 5, 4, 64, 64) | y shape: (60, 5, 1, 64, 64)
+20:33:47 | INFO | Treino: 45 amostras | Teste: 15 amostras
+20:33:47 | INFO | Modelo: URNNLite (ConvGRU) | parametros treinaveis: 54,017
+20:33:48 | INFO | Iniciando treinamento: 25 epocas, batch_size=8, lr=0.001
+20:33:49 | INFO | Epoca 01/25 | MSE treino: 0.01458
+20:33:49 | INFO | Epoca 02/25 | MSE treino: 0.01342
+20:33:49 | INFO | Epoca 03/25 | MSE treino: 0.01138
+20:33:49 | INFO | Epoca 04/25 | MSE treino: 0.00830
+20:33:49 | INFO | Epoca 05/25 | MSE treino: 0.00682
+20:33:49 | INFO | Epoca 06/25 | MSE treino: 0.00677
+20:33:49 | INFO | Epoca 07/25 | MSE treino: 0.00568
+20:33:50 | INFO | Epoca 08/25 | MSE treino: 0.00545
+20:33:50 | INFO | Epoca 09/25 | MSE treino: 0.00507
+20:33:50 | INFO | Epoca 10/25 | MSE treino: 0.00486
+20:33:50 | INFO | Epoca 11/25 | MSE treino: 0.00472
+20:33:50 | INFO | Epoca 12/25 | MSE treino: 0.00497
+20:33:50 | INFO | Epoca 13/25 | MSE treino: 0.00482
+20:33:50 | INFO | Epoca 14/25 | MSE treino: 0.00438
+20:33:51 | INFO | Epoca 15/25 | MSE treino: 0.00442
+20:33:51 | INFO | Epoca 16/25 | MSE treino: 0.00428
+20:33:51 | INFO | Epoca 17/25 | MSE treino: 0.00458
+20:33:51 | INFO | Epoca 18/25 | MSE treino: 0.00461
+20:33:51 | INFO | Epoca 19/25 | MSE treino: 0.00512
+20:33:51 | INFO | Epoca 20/25 | MSE treino: 0.00462
+20:33:51 | INFO | Epoca 21/25 | MSE treino: 0.00463
+20:33:51 | INFO | Epoca 22/25 | MSE treino: 0.00431
+20:33:52 | INFO | Epoca 23/25 | MSE treino: 0.00471
+20:33:52 | INFO | Epoca 24/25 | MSE treino: 0.00446
+20:33:52 | INFO | Epoca 25/25 | MSE treino: 0.00495
+20:33:52 | INFO | MSE final (teste): 0.00529
+20:33:52 | INFO | MAE final (teste): 0.05757
+20:33:52 | INFO | Salvando evidencias em outputs/ (imagens, GIF, metricas)...
+20:33:53 | INFO | Metricas salvas em: outputs/metrics.json
+20:33:53 | INFO | Tempo total de execucao: 6.6s
+20:33:53 | INFO | Pipeline concluido com sucesso.
