@@ -25,6 +25,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 from sklearn.model_selection import train_test_split
+from tqdm import tqdm
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
@@ -125,7 +126,10 @@ def main() -> None:
     losses = []
     n_train = X_train_t.shape[0]
 
-    for epoch in range(1, EPOCHS + 1):
+    # tqdm da evidencia visual de progresso no terminal (util em CPU, onde cada
+    # epoca pode levar alguns segundos) e reporta o MSE corrente na barra.
+    epoch_bar = tqdm(range(1, EPOCHS + 1), desc="Treinamento", unit="epoca")
+    for epoch in epoch_bar:
         model.train()
         epoch_losses = []
         perm = np.random.permutation(n_train)
@@ -145,6 +149,7 @@ def main() -> None:
 
         mean_loss = float(np.mean(epoch_losses))
         losses.append(mean_loss)
+        epoch_bar.set_postfix(mse=f"{mean_loss:.5f}")
         logger.info(f"Epoca {epoch:02d}/{EPOCHS} | MSE treino: {mean_loss:.5f}")
 
     # 5. Avaliar no teste --------------------------------------------------------------

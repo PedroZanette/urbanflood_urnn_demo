@@ -40,6 +40,36 @@ estrutura de um pipeline de nowcasting em PyTorch e o paradigma de pré-aquecime
 recorrente; e o material suplementar do Figshare como fonte do dataset oficial — baixado, mas
 não extraído integralmente (ver justificativa abaixo).
 
+### Inspeção do repositório oficial U-RNN
+
+O repositório `holmescao/U-RNN` foi acessado e sua estrutura verificada diretamente (via GitHub
+API). Ele contém:
+
+- um **quickstart em Colab** (`code/notebooks/quickstart.ipynb`), que roda em menos de 2 minutos
+  sem GPU local e sem download do dataset;
+- uma pasta **`tutorials/01` a `08`** cobrindo instalação, preparação do dataset, pesos
+  pré-treinados, inferência (inclusive TensorRT) e treinamento (versões lite/LarNO/completa);
+- scripts de treino/teste (`code/test.py`, arquivos de configuração `code/configs/*.yaml`) e
+  checkpoints pré-treinados disponíveis via Google Drive/HuggingFace.
+
+Nesta entrega, optou-se por uma **implementação própria, leve e auditável** (`src/`), em vez de
+rodar o quickstart oficial ou os checkpoints pré-treinados, pelos seguintes motivos:
+
+1. o objetivo era garantir uma **execução 100% local e reprodutível** por terceiros, sem
+   depender de Colab ou de uma conta/ambiente externo;
+2. o dataset oficial (~116 GB extraído) é grande demais para o ambiente local disponível (ver
+   justificativa completa abaixo);
+3. o enunciado da atividade permite explicitamente soluções reduzidas/sintéticas justificadas,
+   desde que a solução final execute e gere saídas verificáveis;
+4. uma implementação didática própria permite demonstrar o **entendimento do conceito** de
+   nowcasting espaço-temporal (encoder conv → ConvGRU → decoder conv, pré-aquecimento por janela
+   deslizante) de forma transparente e auditável, sem depender de GPU externa ou da extração
+   completa do dataset.
+
+Essa escolha **não** pretende substituir o U-RNN oficial nem reproduzir matematicamente o artigo
+— apenas demonstrar, de forma funcional e verificável, uma solução **inspirada** nos mesmos
+conceitos arquiteturais.
+
 ---
 
 ## 1. Estudo técnico: conceitos
@@ -206,7 +236,7 @@ mercado: `numpy`, `matplotlib`, `torch` (CPU), `imageio` (GIF), `tqdm`, `scikit-
 (`train_test_split`), `jupyter`/`ipykernel` (notebook).
 
 ```bash
-git clone <url-do-seu-repositorio>
+git clone https://github.com/PedroZanette/urbanflood_urnn_demo.git
 cd urbanflood_urnn_demo
 python3 -m venv .venv
 source .venv/bin/activate
@@ -259,6 +289,22 @@ Ver `outputs/metrics.json` para os valores exatos da última execução (MSE/MAE
 de parâmetros do modelo, tempo total de execução). O objetivo destas métricas é demonstrar que o
 pipeline aprende um padrão não trivial (a perda de treino decresce de forma consistente — ver
 `outputs/loss_curve.png`), não estabelecer estado da arte.
+
+## Parâmetros principais da demonstração
+
+Definidos como constantes no topo de `src/train_demo.py` (ajustáveis diretamente no arquivo):
+
+| Parâmetro | Valor padrão | Descrição |
+|---|---|---|
+| `GRID_SIZE` | 64×64 | Resolução espacial da grade sintética |
+| `N_SAMPLES` | 60 | Número de sequências sintéticas geradas |
+| `T_IN` | 5 | Passos temporais passados usados no pré-aquecimento (janela deslizante) |
+| `T_OUT` | 5 | Passos temporais futuros previstos |
+| `EPOCHS` | 25 | Épocas de treinamento |
+| `BATCH_SIZE` | 8 | Tamanho do lote |
+| `LEARNING_RATE` | 1e-3 | Taxa de aprendizado (Adam) |
+| Loss | MSE (`nn.MSELoss`) | Também reportado MAE de teste em `metrics.json` |
+| Dispositivo | CPU ou GPU | Automático via `torch.cuda.is_available()`; roda em CPU sem qualquer alteração |
 
 ## Limitações
 
